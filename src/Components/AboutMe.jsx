@@ -13,16 +13,15 @@ import Title from "../Util/Title";
 
 const AboutMe = () => {
   const stats = [
-    { label: "Years Experience", value: 3, suffix: "+" },
-    { label: "Projects Done", value: 50, suffix: "+" },
-    { label: "Tech Mastered", value: 15, suffix: "" },
-    { label: "Happy Clients", value: 30, suffix: "+" },
+    { label: "Years Experience", value: 2, suffix: "+" },
+    { label: "Projects Done", value: 10, suffix: "+" },
+    { label: "Happy Clients", value: 8, suffix: "+" },
   ];
 
   return (
     <section
       id="about"
-      className="relative min-h-screen w-full py-20 overflow-hidden bg-linear-to-br from-slate-900 via-purple-900 to-slate-900 text-white"
+      className="relative min-h-70 w-full py-20 overflow-hidden bg-linear-to-br from-slate-900 via-purple-900 to-slate-900 text-white"
     >
       {/* Decorative Elements */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">

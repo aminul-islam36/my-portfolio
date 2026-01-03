@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import { Mail, MapPin, Send, Loader2 } from "lucide-react";
+import { Mail, MapPin, Send, Loader2, Phone } from "lucide-react";
 import Title from "../Util/Title";
 
 const Contact = () => {
@@ -62,11 +62,20 @@ const Contact = () => {
             <div className="space-y-6">
               <div className="flex items-start gap-4 group">
                 <div className="p-3 bg-blue-600/10 rounded-lg text-blue-500 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300">
+                  <Phone size={24} />
+                </div>
+                <div>
+                  <p className="text-sm text-gray-500">Call Me</p>
+                  <p className="text-lg font-medium">+8801912874218</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-4 group">
+                <div className="p-3 bg-blue-600/10 rounded-lg text-blue-500 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300">
                   <Mail size={24} />
                 </div>
                 <div>
                   <p className="text-sm text-gray-500">Email Me</p>
-                  <p className="text-lg font-medium">aminul.dev@example.com</p>
+                  <p className="text-lg font-medium">mmamin2021@gmail.com</p>
                 </div>
               </div>
 
@@ -76,7 +85,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-gray-500">Location</p>
-                  <p className="text-lg font-medium">Dhaka, Bangladesh</p>
+                  <p className="text-lg font-medium">Mymensingh, Bangladesh</p>
                 </div>
               </div>
             </div>

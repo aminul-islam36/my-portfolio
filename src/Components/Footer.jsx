@@ -31,9 +31,10 @@ const Footer = () => {
           {/* Brand Section - Slides in from left */}
           <div className="space-y-4" data-aos="fade-right">
             <Logo />
-            <p className="text-sm leading-relaxed max-w-xs mt-5">
-              Building high-performance full-stack applications with the MERN
-              stack. Let's create something amazing together.
+            <p className="text-sm leading-relaxed max-w-xs mt-3">
+              Professional MERN Stack Developer who thrives on turning complex
+              problems into elegant digital realities. With a deep mastery of
+              React, Node.js, and MongoDB.
             </p>
           </div>
 
